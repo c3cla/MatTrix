@@ -1,7 +1,7 @@
 version: 0.1
 
-endopints:
-  - name: "MatTrix"
+endpoints:
+  - name: "REST API"
     port: 8000
     type: REST
     networkVisibility: Public
