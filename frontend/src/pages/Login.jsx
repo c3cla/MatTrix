@@ -1,7 +1,7 @@
-import Form from "../components/Form"
+import EnhancedLoginScreen from '../components/Form.jsx';
 
 function Login() {
-    return <Form route="/api/token/" method="login" />
+    return <EnhancedLoginScreen route="/api/token/" method="login" />;
 }
 
-export default Login
+export default Login;
